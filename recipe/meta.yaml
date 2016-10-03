@@ -34,7 +34,7 @@ requirements:
     - pims >=0.3.3
     - pyyaml
     - matplotlib
-    - pytables  # optional
+#    - pytables  # optional
 
 test:
   imports:
