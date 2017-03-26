@@ -13,6 +13,18 @@ trackpy is a Python package for particle tracking in 2D, 3D,
 and higher dimensions.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/trackpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/trackpy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/trackpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/trackpy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/trackpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/trackpy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trackpy/badges/version.svg)](https://anaconda.org/conda-forge/trackpy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trackpy/badges/downloads.svg)](https://anaconda.org/conda-forge/trackpy)
+
 Installing trackpy
 ==================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `trackpy` available on your platfo
 ```
 conda search trackpy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/trackpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/trackpy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/trackpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/trackpy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/trackpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/trackpy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trackpy/badges/version.svg)](https://anaconda.org/conda-forge/trackpy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trackpy/badges/downloads.svg)](https://anaconda.org/conda-forge/trackpy)
 
 
 Updating trackpy-feedstock
