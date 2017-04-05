@@ -1,13 +1,15 @@
+{% set name = "trackpy" %}
 {% set version = "0.3.3" %}
+{% set sha256 = "90b57f73b4641eeeee05c8d3c5ce252642bdc66c50cff96b9e2ed77958867b1b" %}
 
 package:
-  name: trackpy
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: trackpy-{{ version }}.tar.gz
-  url: https://github.com/soft-matter/trackpy/archive/v{{ version }}.tar.gz
-  sha256: 90b57f73b4641eeeee05c8d3c5ce252642bdc66c50cff96b9e2ed77958867b1b
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
   number: 0
