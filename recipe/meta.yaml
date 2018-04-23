@@ -1,6 +1,6 @@
 {% set name = "trackpy" %}
-{% set version = "0.4" %}
-{% set sha256 = "a36f1643c72c435ae480f2cb1c1426ed120e498822a8d09a7f53481deac63306" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "f682f75e99f6c29c65e8531899b957c67d9d5a027b28b44258fa2c4a18e851cd" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,6 @@ requirements:
     - scipy >=0.12
     - six >=1.8
     - pandas >=0.13
-    - pims >=0.4.1
     - pyyaml
     - matplotlib
   run:
@@ -33,10 +32,8 @@ requirements:
     - scipy >=0.12
     - six >=1.8
     - pandas >=0.13
-    - pims >=0.4.1
     - pyyaml
     - matplotlib
-    - pytables  # optional
 
 test:
   imports:
