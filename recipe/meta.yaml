@@ -1,6 +1,6 @@
 {% set name = "trackpy" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "f682f75e99f6c29c65e8531899b957c67d9d5a027b28b44258fa2c4a18e851cd" %}
+{% set version = "0.4.2rc1" %}
+{% set sha256 = "eaea46b070c368db1158b88932dd7d98ebcefae1d079c6c29da965b43438c404" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
