@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - six >=1.8
     - pandas >=0.13
     - pyyaml
-    - matplotlib
+    - matplotlib-base
   run:
     - python
     - setuptools
@@ -35,7 +35,7 @@ requirements:
     - six >=1.8
     - pandas >=0.13
     - pyyaml
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
