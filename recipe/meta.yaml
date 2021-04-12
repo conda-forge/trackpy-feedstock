@@ -1,6 +1,6 @@
 {% set name = "trackpy" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "ed3e53087cd98480e09473d774f13077906dca3cbdbc7c7cbb8c2ac6e3d95d70" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "b5e8a40491a4cdc1c8c5f15e75e468b9ee51f677018d330622f9277468d0f297" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -45,7 +45,7 @@ about:
   home: https://github.com/soft-matter/trackpy
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'Python particle tracking toolkit'
+  summary: Python particle tracking toolkit
   description: |
     trackpy is a Python package for particle tracking in 2D, 3D,
     and higher dimensions.
