@@ -1,6 +1,6 @@
 {% set name = "trackpy" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "b5e8a40491a4cdc1c8c5f15e75e468b9ee51f677018d330622f9277468d0f297" %}
+{% set version = "0.6.0rc1" %}
+{% set sha256 = "3ea41b9f2b3c87685ed45aad6409e5b94467e535c8044dd40c41366a847c3ad6" %}
 
 package:
   name: {{ name|lower }}
@@ -19,21 +19,23 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
     - numpy >=1.14
     - scipy >=1.1
     - pandas >=0.22
     - pyyaml
     - matplotlib-base
+    - looseversion>=1.0.1
   run:
-    - python >=3.6
+    - python >=3.7
     - setuptools
     - numpy >=1.14
     - scipy >=1.1
     - pandas >=0.22
     - pyyaml
     - matplotlib-base
+    - looseversion>=1.0.1
 
 test:
   imports:
