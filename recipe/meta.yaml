@@ -21,6 +21,7 @@ requirements:
     - pip
     - python >=3.6
     - setuptools
+    - looseversion
     - numpy >=1.14
     - scipy >=1.1
     - pandas >=0.22
@@ -29,6 +30,7 @@ requirements:
   run:
     - python >=3.6
     - setuptools
+    - looseversion
     - numpy >=1.14
     - scipy >=1.1
     - pandas >=0.22
