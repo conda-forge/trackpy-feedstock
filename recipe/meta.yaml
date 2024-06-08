@@ -1,6 +1,6 @@
 {% set name = "trackpy" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "3e10ee42c8e23646b880ca32b37292a4fe582b42e459602405e4c42d9f28b8ec" %}
+{% set version = "0.6.3" %}
+{% set sha256 = "d7dfd242ec25f05c787e4663b8ec6559ddc33a15f656b5bb3a4e6840f52549ff" %}
 
 package:
   name: {{ name|lower }}
